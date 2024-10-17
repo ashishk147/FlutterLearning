@@ -17,6 +17,14 @@ class Mylogin extends StatelessWidget {
               decoration: InputDecoration(
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5))),
+
+            ),
+            SizedBox(height: 30,),
+            TextField(
+              decoration: InputDecoration(
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(5))),
+
             ),
           ],
         ),
